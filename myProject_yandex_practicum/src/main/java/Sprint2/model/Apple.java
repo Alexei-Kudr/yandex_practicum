@@ -1,15 +1,21 @@
 package Sprint2.model;
 
-public class Apple extends Food implements Discountable {
-    private String colour;
+import java.util.Objects;
 
-    public Apple(int amount, double price, String colour) {
+import static Sprint2.model.constants.Colour.RED;
+import static Sprint2.model.constants.Discount.RED_APPLE_DISCOUNT;
+import static Sprint2.model.constants.Discount.NO_DISCOUNT;
+
+public class Apple extends Food {
+    private final String color;
+
+    public Apple(Integer amount, Double price, String color) {
         super(amount, price, true);
-        this.colour = colour;
+        this.color = color;
     }
 
-    @Override
-    public double getDiscount() {
-        return "red".equals(colour) ? 60 : 0;
+    public Double getDiscount() {
+        return Objects.equals(color, RED) ?
+                RED_APPLE_DISCOUNT : NO_DISCOUNT;
     }
 }
