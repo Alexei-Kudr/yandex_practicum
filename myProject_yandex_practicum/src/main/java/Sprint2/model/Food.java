@@ -1,4 +1,4 @@
-package Sprint_2.model;
+package Sprint2.model;
 
 public abstract class Food {
     public int amount;

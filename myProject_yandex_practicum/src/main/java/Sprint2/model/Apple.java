@@ -1,4 +1,4 @@
-package Sprint_2.model;
+package Sprint2.model;
 
 public class Apple extends Food implements Discountable {
     private String colour;

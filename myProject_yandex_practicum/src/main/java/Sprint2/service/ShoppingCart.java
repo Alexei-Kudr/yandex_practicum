@@ -1,7 +1,7 @@
-package Sprint_2.service;
+package Sprint2.service;
 
-import Sprint_2.model.Food;
-import Sprint_2.model.Discountable;
+import Sprint2.model.Food;
+import Sprint2.model.Discountable;
 
 public class ShoppingCart {
     private Food[] items;
