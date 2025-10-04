@@ -1,4 +1,4 @@
-package Sprint_2.model.constants;
+package Sprint2.model.constants;
 
 public class Colour {
     public static final String RED = "red";

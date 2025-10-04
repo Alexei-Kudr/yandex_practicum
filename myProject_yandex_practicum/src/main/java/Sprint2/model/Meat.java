@@ -1,4 +1,4 @@
-package Sprint_2.model;
+package Sprint2.model;
 
 public class Meat extends Food {
     public Meat(int amount, double price) {

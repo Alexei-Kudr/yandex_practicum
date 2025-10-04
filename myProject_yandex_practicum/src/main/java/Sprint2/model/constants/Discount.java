@@ -1,4 +1,4 @@
-package Sprint_2.model.constants;
+package Sprint2.model.constants;
 
 public class Discount {
     public static final double NO_DISCOUNT = 0;
